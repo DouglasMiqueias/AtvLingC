@@ -15,17 +15,17 @@ int main() {
 
         for (i = 0; i < rodadas; i++) {
             scanf("%d %d", &v1, &v2);
-            if (v1 >= 0 && v1 <= 10 && v2 >= 0 && v2 <= 10) {
+            if (v1 >= 0 && v1 <= 10 && v2 >= 0 && v2 <= 10) { //  se o if for só uma instrução nao precisa colocar chaves
                 if (v1 > v2) {
                     aux1++; // Primeiro jogador ganha
                 } else if (v1 < v2) {
                     aux2++; // Segundo jogador ganha
                 }
-                // Se v1 == v2, ningu�m ganha ponto
+                // Se v1 == v2, ninguém ganha ponto
             }
         }
 
-        printf("%d %d\n", aux1, aux2); // Imprimir resultados ap�s cada partida
+        printf("%d %d\n", aux1, aux2); // Imprimir resultados após cada partida
     }
 
     return 0;
