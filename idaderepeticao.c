@@ -10,7 +10,7 @@ int main()
         scanf("%d", &idade);
         if(idade>0)
         {
-            soma +=idade;
+            soma +=idade; // soma = soma + i
             cont++;
         }else{
             aux++;
